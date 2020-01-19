@@ -43,11 +43,11 @@ colors = []
 for idx, val in enumerate(centers):
     clustervalue = float(val[0]) / float(val[1])
     print(clustervalue)
-    if clustervalue < 0.7:
+    if clustervalue < (1):
         colors.append([idx, 1])
-    elif 0.7 <= clustervalue <= 1.9:
+    elif (1) <= clustervalue <= (2):
         colors.append([idx, 0])
-    elif clustervalue > 1.9:
+    elif clustervalue > (2):
         colors.append([idx, -1])
 
 dcolor = {-1:"red", 0:"yellow", 1:"green"}
@@ -57,4 +57,5 @@ plt.scatter(centers[:, 0], centers[:, 1], c='black', marker='x')
 plt.title("Square Feet vs Prices")
 plt.xlabel("Prices per Month")
 plt.ylabel("Square Feet")
+
 plt.show(fig)
