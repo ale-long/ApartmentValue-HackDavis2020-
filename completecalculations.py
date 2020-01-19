@@ -98,13 +98,4 @@ plt.title("Sqft vs Prices")
 plt.xlabel("Prices per Month")
 plt.ylabel("Sqft")
 
-#now we put weights on each apartment aspect
-#price + distance + sqft + bed
-
-price_weight = input("Enter a weight for price(decimal between 0 and 1): ")
-distance_weight = input("Enter a weight for distance(decimal between 0 and 1): ")
-sqft_weight = input("Enter a weight for sqft(decimal between 0 and 1): ") 
-#bed_weight = input("Enter a weight for ")
-
-
 plt.show()
