@@ -1,2 +1,2 @@
 # ApartmentValue-HackDavis2020-
-Gathering data points of various aspects of an apartment to see if it is a good, okay, or bad value.
+Gathering data points of various aspects of an apartment to see if it is a good, okay, or bad value. We utilized python libraries like Kmeans to form clusters and pick from the best available set, and used matplotlib to plot our data points. Some of the obstacles we had to face included finding a way to scrape data off of websites like Zillow in an efficient manner without using UIPath to manually populate our data values. 
